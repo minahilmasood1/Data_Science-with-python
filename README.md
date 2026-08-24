@@ -15,10 +15,9 @@ The goal of this repository is to track my growth from writing my very first lin
 
 ## 📂 Repository Structure
 
-* 📂 01-Python-Basics/ — Variables, loops, conditional statements, and user-defined functions.
-* 📂 02-Data-Structures/ — Mastering Python lists, tuples, dictionaries, and sets.
-* 📂 03-Numpy-Practice/ — Matrix manipulations, array slicing, and vector math.
-* 📂 04-Pandas-Analysis/ — Data cleanup, handling missing values, and manipulating CSV files.
+* 📂 01-Python-Basics/ — My first python script,Object Oriented Programming.
+* 📂 02-Numpy-Practice/ — Array formation, array slicing, built-in methods and vector math.
+* 📂 03-Pandas-Analysis/ — Data cleanup, handling missing values, and manipulating CSV files.
 
 ---
 
