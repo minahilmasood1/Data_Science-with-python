@@ -1,9 +1,11 @@
 import pandas as pd
+from pathlib import Path
 #Dataframes are 2D,consist of rows and columns in tabular form
 data = {"Name":"Ali","Class":4,"Subject": "English","School":"FG","CIty":"Islamabad"}
 d = pd.DataFrame(data,index=[1])
 print(d)
-file = pd.read_csv("retail_sales.csv") #loadinf file into pd dataframe
+BASE_DIR = Path(__file__).resolve().parent
+file = pd.read_csv(BASE_DIR / "retail_sales.csv") #loadinf file into pd dataframe
 #Some common methods and attributes:
 file.info()
 print(file.describe())
