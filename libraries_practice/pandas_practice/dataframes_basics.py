@@ -3,7 +3,7 @@ import pandas as pd
 data = {"Name":"Ali","Class":4,"Subject": "English","School":"FG","CIty":"Islamabad"}
 d = pd.DataFrame(data,index=[1])
 print(d)
-file = pd.read_csv("C:/Users/my pc/Downloads/retail_sales.csv") #loadinf file into pd dataframe
+file = pd.read_csv("retail_sales.csv") #loadinf file into pd dataframe
 #Some common methods and attributes:
 file.info()
 print(file.describe())
