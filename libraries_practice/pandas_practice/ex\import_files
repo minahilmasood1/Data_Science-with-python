@@ -1,0 +1,8 @@
+import pandas as pd
+file = pd.read_csv("C:/Users/my pc/Downloads/retail_sales.csv", parse_dates= ["Date"],date_format=("%m,%d,%Y"))
+file.info()
+clean = file[file["Sales"] > 0]
+subset = clean[["Sales","Category","Region"]]
+print(subset)
+subset.to_json("subset_sales.json",orient="records")
+print("file exported")
